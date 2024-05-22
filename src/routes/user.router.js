@@ -9,7 +9,7 @@ const {
   getLoggedUser,
 } = require("../controllers/user.controllers");
 const express = require("express");
-const verifyJWT = require("../utils/verifyjwt");
+const verifyJWT = require("../utils/verifyJWT");
 
 const userRouter = express.Router();
 
